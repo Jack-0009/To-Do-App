@@ -258,12 +258,12 @@ li span {
 }
 
 .edit-btn {
-    background: linear-gradient(135deg, #3b82f6, #2563eb);
+    background: linear-gradient(135deg, #374151, #1f2937);
     box-shadow: 0 4px 15px rgba(59, 130, 246, 0.4);
 }
 
 .edit-btn:hover {
-    background: linear-gradient(135deg, #2563eb, #1d4ed8);
+    background: linear-gradient(135deg, #1f2937, #111827);
     transform: translateY(-2px);
     box-shadow: 0 8px 25px rgba(59, 130, 246, 0.6);
 }
