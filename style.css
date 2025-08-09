@@ -71,7 +71,7 @@ form {
 }
 
 /* المدخل */
-#task {
+#task , .edit-input {
     padding: 16px 24px;
     width: 400px;
     font-size: 16px;
@@ -222,7 +222,7 @@ li span {
 }
 
 /* أزرار الحذف والتحقق */
-.delete-btn, .done-btn {
+.delete-btn, .done-btn , .edit-btn {
     border: none;
     padding: 10px 12px;
     border-radius: 12px;
@@ -256,6 +256,18 @@ li span {
     transform: translateY(-2px);
     box-shadow: 0 8px 25px rgba(16, 185, 129, 0.6);
 }
+
+.edit-btn {
+    background: linear-gradient(135deg, #3b82f6, #2563eb);
+    box-shadow: 0 4px 15px rgba(59, 130, 246, 0.4);
+}
+
+.edit-btn:hover {
+    background: linear-gradient(135deg, #2563eb, #1d4ed8);
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(59, 130, 246, 0.6);
+}
+
 
 /* الانيميشن */
 @keyframes fadeInDown {
