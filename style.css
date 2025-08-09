@@ -1,0 +1,121 @@
+body {
+    font-family: "Segoe UI", Tahoma, sans-serif;
+    background-color: #f5f7fa;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #c0392b;
+
+}
+
+h2 {
+    margin-top: 50px;
+}
+
+/* الفورم في منتصف الصفحة */
+form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+/* المدخل */
+#task {
+    padding: 10px 15px;
+    width: 300px; /* حجم ثابت */
+    font-size: 16px;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.15);
+    transition: 0.3s;
+}
+
+#task:focus {
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.6);
+}
+
+/* زر الإضافة */
+#submit {
+    padding: 10px 15px;
+    font-size: 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+#submit:disabled {
+    background-color: #aaa;
+    cursor: not-allowed;
+}
+
+ol {
+    list-style-type: decimal;
+    padding-left: 40px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 700px;
+    margin: auto;
+}
+
+li {
+    background-color: white;
+    margin-bottom: 10px;
+    padding: 15px;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    width: 700px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.oklists {
+    background-color: rgba(34, 139, 34, 0.616);
+    color: white;
+}
+
+.list {
+    background-color: #c03a2ba2;
+    color: white;
+}
+
+li span {
+    flex: 1;
+}
+
+/* أزرار الحذف والتحقق */
+.delete-btn, .done-btn {
+    border: none;
+    padding: 6px;
+    border-radius: 4px;
+    cursor: pointer;
+    color: white;
+    margin-left: 6px;
+}
+
+.delete-btn {
+    background-color: #e74c3c;
+}
+
+.delete-btn:hover {
+    background-color: #c0392b;
+}
+
+.done-btn {
+    background-color: #2ecc71;
+}
+
+.done-btn:hover {
+    background-color: #27ae60;
+}
